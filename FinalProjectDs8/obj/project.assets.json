@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Nitro\\source\\repos\\FinalProjectDs8\\FinalProjectDs8\\FinalProjectDs8.vbproj",
+      "projectUniqueName": "D:\\Escritorio\\Proyecto fianl ds8\\proyecto-final-ds8\\FinalProjectDs8\\FinalProjectDs8.vbproj",
       "projectName": "FinalProjectDs8",
-      "projectPath": "C:\\Users\\Nitro\\source\\repos\\FinalProjectDs8\\FinalProjectDs8\\FinalProjectDs8.vbproj",
+      "projectPath": "D:\\Escritorio\\Proyecto fianl ds8\\proyecto-final-ds8\\FinalProjectDs8\\FinalProjectDs8.vbproj",
       "packagesPath": "C:\\Users\\Nitro\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Nitro\\source\\repos\\FinalProjectDs8\\FinalProjectDs8\\obj\\",
+      "outputPath": "D:\\Escritorio\\Proyecto fianl ds8\\proyecto-final-ds8\\FinalProjectDs8\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Nitro\\AppData\\Roaming\\NuGet\\NuGet.Config",
