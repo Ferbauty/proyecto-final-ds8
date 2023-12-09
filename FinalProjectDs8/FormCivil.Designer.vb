@@ -24,6 +24,7 @@ Partial Class FormCivil
     Private Sub InitializeComponent()
         TabControl1 = New TabControl()
         TabPage1 = New TabPage()
+        btnSiguienteCivil = New Button()
         txtEdadCivil = New TextBox()
         txtCedulaCivil = New TextBox()
         txtApellidoCivil = New TextBox()
@@ -33,8 +34,9 @@ Partial Class FormCivil
         Label2 = New Label()
         Label1 = New Label()
         TabPage2 = New TabPage()
+        btnRegCivil = New Button()
         btnRegistrarCivil = New Button()
-        TextBox5 = New TextBox()
+        txtHorasCivil = New TextBox()
         Label7 = New Label()
         lbHorasCivil = New ListBox()
         Label6 = New Label()
@@ -72,6 +74,7 @@ Partial Class FormCivil
         ' 
         ' TabPage1
         ' 
+        TabPage1.Controls.Add(btnSiguienteCivil)
         TabPage1.Controls.Add(txtEdadCivil)
         TabPage1.Controls.Add(txtCedulaCivil)
         TabPage1.Controls.Add(txtApellidoCivil)
@@ -87,6 +90,15 @@ Partial Class FormCivil
         TabPage1.TabIndex = 0
         TabPage1.Text = "Datos del estudiante"
         TabPage1.UseVisualStyleBackColor = True
+        ' 
+        ' btnSiguienteCivil
+        ' 
+        btnSiguienteCivil.Location = New Point(180, 278)
+        btnSiguienteCivil.Name = "btnSiguienteCivil"
+        btnSiguienteCivil.Size = New Size(94, 29)
+        btnSiguienteCivil.TabIndex = 8
+        btnSiguienteCivil.Text = "Siguiente"
+        btnSiguienteCivil.UseVisualStyleBackColor = True
         ' 
         ' txtEdadCivil
         ' 
@@ -154,8 +166,9 @@ Partial Class FormCivil
         ' 
         ' TabPage2
         ' 
+        TabPage2.Controls.Add(btnRegCivil)
         TabPage2.Controls.Add(btnRegistrarCivil)
-        TabPage2.Controls.Add(TextBox5)
+        TabPage2.Controls.Add(txtHorasCivil)
         TabPage2.Controls.Add(Label7)
         TabPage2.Controls.Add(lbHorasCivil)
         TabPage2.Controls.Add(Label6)
@@ -173,6 +186,15 @@ Partial Class FormCivil
         TabPage2.Text = "Labor Social"
         TabPage2.UseVisualStyleBackColor = True
         ' 
+        ' btnRegCivil
+        ' 
+        btnRegCivil.Location = New Point(53, 372)
+        btnRegCivil.Name = "btnRegCivil"
+        btnRegCivil.Size = New Size(94, 29)
+        btnRegCivil.TabIndex = 11
+        btnRegCivil.Text = "Regresar"
+        btnRegCivil.UseVisualStyleBackColor = True
+        ' 
         ' btnRegistrarCivil
         ' 
         btnRegistrarCivil.Location = New Point(562, 233)
@@ -182,12 +204,13 @@ Partial Class FormCivil
         btnRegistrarCivil.Text = "Registrar"
         btnRegistrarCivil.UseVisualStyleBackColor = True
         ' 
-        ' TextBox5
+        ' txtHorasCivil
         ' 
-        TextBox5.Location = New Point(327, 328)
-        TextBox5.Name = "TextBox5"
-        TextBox5.Size = New Size(230, 27)
-        TextBox5.TabIndex = 9
+        txtHorasCivil.Location = New Point(327, 328)
+        txtHorasCivil.Name = "txtHorasCivil"
+        txtHorasCivil.ReadOnly = True
+        txtHorasCivil.Size = New Size(230, 27)
+        txtHorasCivil.TabIndex = 9
         ' 
         ' Label7
         ' 
@@ -383,7 +406,7 @@ Partial Class FormCivil
     Friend WithEvents rbLSCivil2 As RadioButton
     Friend WithEvents rbLSCivil1 As RadioButton
     Friend WithEvents Label5 As Label
-    Friend WithEvents TextBox5 As TextBox
+    Friend WithEvents txtHorasCivil As TextBox
     Friend WithEvents Label7 As Label
     Friend WithEvents lbHorasCivil As ListBox
     Friend WithEvents Label6 As Label
@@ -395,4 +418,6 @@ Partial Class FormCivil
     Friend WithEvents Column4 As DataGridViewTextBoxColumn
     Friend WithEvents Column5 As DataGridViewTextBoxColumn
     Friend WithEvents Column6 As DataGridViewTextBoxColumn
+    Friend WithEvents btnSiguienteCivil As Button
+    Friend WithEvents btnRegCivil As Button
 End Class

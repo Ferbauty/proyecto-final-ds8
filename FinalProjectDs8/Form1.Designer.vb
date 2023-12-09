@@ -33,7 +33,7 @@ Partial Class Form1
         Label2 = New Label()
         Label1 = New Label()
         TabPage2 = New TabPage()
-        dgv = New DataGridView()
+        dgvReporte = New DataGridView()
         Column1 = New DataGridViewTextBoxColumn()
         Column2 = New DataGridViewTextBoxColumn()
         Column3 = New DataGridViewTextBoxColumn()
@@ -42,7 +42,7 @@ Partial Class Form1
         TabControl1.SuspendLayout()
         TabPage1.SuspendLayout()
         TabPage2.SuspendLayout()
-        CType(dgv, ComponentModel.ISupportInitialize).BeginInit()
+        CType(dgvReporte, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' TabControl1
@@ -167,7 +167,7 @@ Partial Class Form1
         ' 
         ' TabPage2
         ' 
-        TabPage2.Controls.Add(dgv)
+        TabPage2.Controls.Add(dgvReporte)
         TabPage2.Location = New Point(4, 29)
         TabPage2.Name = "TabPage2"
         TabPage2.Padding = New Padding(3)
@@ -176,16 +176,16 @@ Partial Class Form1
         TabPage2.Text = "Reporte"
         TabPage2.UseVisualStyleBackColor = True
         ' 
-        ' dgv
+        ' dgvReporte
         ' 
-        dgv.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        dgv.Columns.AddRange(New DataGridViewColumn() {Column1, Column2, Column3, Column4, Column5})
-        dgv.Location = New Point(184, 74)
-        dgv.Name = "dgv"
-        dgv.RowHeadersWidth = 51
-        dgv.RowTemplate.Height = 29
-        dgv.Size = New Size(677, 393)
-        dgv.TabIndex = 0
+        dgvReporte.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        dgvReporte.Columns.AddRange(New DataGridViewColumn() {Column1, Column2, Column3, Column4, Column5})
+        dgvReporte.Location = New Point(184, 74)
+        dgvReporte.Name = "dgvReporte"
+        dgvReporte.RowHeadersWidth = 51
+        dgvReporte.RowTemplate.Height = 29
+        dgvReporte.Size = New Size(677, 393)
+        dgvReporte.TabIndex = 0
         ' 
         ' Column1
         ' 
@@ -234,7 +234,7 @@ Partial Class Form1
         TabPage1.ResumeLayout(False)
         TabPage1.PerformLayout()
         TabPage2.ResumeLayout(False)
-        CType(dgv, ComponentModel.ISupportInitialize).EndInit()
+        CType(dgvReporte, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
     End Sub
 
@@ -249,7 +249,7 @@ Partial Class Form1
     Friend WithEvents rbCivil As RadioButton
     Friend WithEvents Label2 As Label
     Friend WithEvents Label1 As Label
-    Friend WithEvents dgv As DataGridView
+    Friend WithEvents dgvReporte As DataGridView
     Friend WithEvents Column1 As DataGridViewTextBoxColumn
     Friend WithEvents Column2 As DataGridViewTextBoxColumn
     Friend WithEvents Column3 As DataGridViewTextBoxColumn

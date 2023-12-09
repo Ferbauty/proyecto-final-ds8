@@ -1,4 +1,8 @@
 ﻿Public Class FormCivil
+
+    Private Form1 As Form1
+
+
     Private Sub btnRegistrarCivil_Click(sender As Object, e As EventArgs) Handles btnRegistrarCivil.Click
         Dim nombre, apellido, cedula, laborSocial, facultad As String
         Dim edad, horas As Integer
@@ -33,15 +37,23 @@
         'Horas de labor social
         If lbHorasCivil.SelectedIndex <> -1 Then
             horas = lbHorasCivil.SelectedItem
+            txtHorasCivil.Text = horas.ToString
+
         Else
             MessageBox.Show("Debes saleccionar una cantidad de horas de la lista.")
         End If
 
         facultad = "Ingeniería Civil"
 
+        'codigo para enviar los datos al registro de la facultad correspendiente
         dgvRegistroCivil.Rows.Add(nombre, apellido, cedula, edad, laborSocial, horas)
 
+        'codigo para enviar el registro de la facultad al reporte general
+        Form1.AgregarReporte(nombre, apellido, cedula, facultad, laborSocial)
+
         LimpiezaControles()
+
+        TabControl1.SelectedIndex = 2
 
     End Sub
 
@@ -62,6 +74,21 @@
         'Desmarca listBox
         lbHorasCivil.ClearSelected()
 
+    End Sub
+
+
+
+    Private Sub btnSiguienteCivil_Click(sender As Object, e As EventArgs) Handles btnSiguienteCivil.Click
+        TabControl1.SelectedIndex = 1
+    End Sub
+
+    Private Sub btnRegCivil_Click(sender As Object, e As EventArgs) Handles btnRegCivil.Click
+        TabControl1.SelectedIndex = 0
+    End Sub
+
+    Private Sub FormCivil_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Form1 = New Form1()
+        Form1.Show()
 
     End Sub
 End Class
