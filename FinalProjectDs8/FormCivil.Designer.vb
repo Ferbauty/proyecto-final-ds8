@@ -54,6 +54,8 @@ Partial Class FormCivil
         Column4 = New DataGridViewTextBoxColumn()
         Column5 = New DataGridViewTextBoxColumn()
         Column6 = New DataGridViewTextBoxColumn()
+        Button1 = New Button()
+        Label8 = New Label()
         TabControl1.SuspendLayout()
         TabPage1.SuspendLayout()
         TabPage2.SuspendLayout()
@@ -66,10 +68,11 @@ Partial Class FormCivil
         TabControl1.Controls.Add(TabPage1)
         TabControl1.Controls.Add(TabPage2)
         TabControl1.Controls.Add(TabPage3)
-        TabControl1.Location = New Point(31, 78)
+        TabControl1.Location = New Point(13, 106)
+        TabControl1.Margin = New Padding(4)
         TabControl1.Name = "TabControl1"
         TabControl1.SelectedIndex = 0
-        TabControl1.Size = New Size(898, 467)
+        TabControl1.Size = New Size(1182, 577)
         TabControl1.TabIndex = 0
         ' 
         ' TabPage1
@@ -83,84 +86,94 @@ Partial Class FormCivil
         TabPage1.Controls.Add(Label3)
         TabPage1.Controls.Add(Label2)
         TabPage1.Controls.Add(Label1)
-        TabPage1.Location = New Point(4, 29)
+        TabPage1.Location = New Point(4, 34)
+        TabPage1.Margin = New Padding(4)
         TabPage1.Name = "TabPage1"
-        TabPage1.Padding = New Padding(3)
-        TabPage1.Size = New Size(890, 434)
+        TabPage1.Padding = New Padding(4)
+        TabPage1.Size = New Size(1174, 539)
         TabPage1.TabIndex = 0
         TabPage1.Text = "Datos del estudiante"
         TabPage1.UseVisualStyleBackColor = True
         ' 
         ' btnSiguienteCivil
         ' 
-        btnSiguienteCivil.Location = New Point(180, 278)
+        btnSiguienteCivil.Location = New Point(225, 348)
+        btnSiguienteCivil.Margin = New Padding(4)
         btnSiguienteCivil.Name = "btnSiguienteCivil"
-        btnSiguienteCivil.Size = New Size(94, 29)
+        btnSiguienteCivil.Size = New Size(118, 36)
         btnSiguienteCivil.TabIndex = 8
         btnSiguienteCivil.Text = "Siguiente"
         btnSiguienteCivil.UseVisualStyleBackColor = True
         ' 
         ' txtEdadCivil
         ' 
-        txtEdadCivil.Location = New Point(141, 183)
+        txtEdadCivil.Location = New Point(176, 229)
+        txtEdadCivil.Margin = New Padding(4)
         txtEdadCivil.Name = "txtEdadCivil"
-        txtEdadCivil.Size = New Size(224, 27)
+        txtEdadCivil.Size = New Size(279, 31)
         txtEdadCivil.TabIndex = 7
         ' 
         ' txtCedulaCivil
         ' 
-        txtCedulaCivil.Location = New Point(141, 133)
+        txtCedulaCivil.Location = New Point(176, 166)
+        txtCedulaCivil.Margin = New Padding(4)
         txtCedulaCivil.Name = "txtCedulaCivil"
-        txtCedulaCivil.Size = New Size(224, 27)
+        txtCedulaCivil.Size = New Size(279, 31)
         txtCedulaCivil.TabIndex = 6
         ' 
         ' txtApellidoCivil
         ' 
-        txtApellidoCivil.Location = New Point(141, 83)
+        txtApellidoCivil.Location = New Point(176, 104)
+        txtApellidoCivil.Margin = New Padding(4)
         txtApellidoCivil.Name = "txtApellidoCivil"
-        txtApellidoCivil.Size = New Size(224, 27)
+        txtApellidoCivil.Size = New Size(279, 31)
         txtApellidoCivil.TabIndex = 5
         ' 
         ' txtNombreCivil
         ' 
-        txtNombreCivil.Location = New Point(141, 37)
+        txtNombreCivil.Location = New Point(176, 46)
+        txtNombreCivil.Margin = New Padding(4)
         txtNombreCivil.Name = "txtNombreCivil"
-        txtNombreCivil.Size = New Size(224, 27)
+        txtNombreCivil.Size = New Size(279, 31)
         txtNombreCivil.TabIndex = 4
         ' 
         ' Label4
         ' 
         Label4.AutoSize = True
-        Label4.Location = New Point(46, 186)
+        Label4.Location = New Point(58, 232)
+        Label4.Margin = New Padding(4, 0, 4, 0)
         Label4.Name = "Label4"
-        Label4.Size = New Size(43, 20)
+        Label4.Size = New Size(52, 25)
         Label4.TabIndex = 3
         Label4.Text = "Edad"
         ' 
         ' Label3
         ' 
         Label3.AutoSize = True
-        Label3.Location = New Point(46, 136)
+        Label3.Location = New Point(58, 170)
+        Label3.Margin = New Padding(4, 0, 4, 0)
         Label3.Name = "Label3"
-        Label3.Size = New Size(55, 20)
+        Label3.Size = New Size(66, 25)
         Label3.TabIndex = 2
         Label3.Text = "Cédula"
         ' 
         ' Label2
         ' 
         Label2.AutoSize = True
-        Label2.Location = New Point(46, 86)
+        Label2.Location = New Point(58, 108)
+        Label2.Margin = New Padding(4, 0, 4, 0)
         Label2.Name = "Label2"
-        Label2.Size = New Size(66, 20)
+        Label2.Size = New Size(78, 25)
         Label2.TabIndex = 1
         Label2.Text = "Apellido"
         ' 
         ' Label1
         ' 
         Label1.AutoSize = True
-        Label1.Location = New Point(46, 40)
+        Label1.Location = New Point(58, 50)
+        Label1.Margin = New Padding(4, 0, 4, 0)
         Label1.Name = "Label1"
-        Label1.Size = New Size(64, 20)
+        Label1.Size = New Size(78, 25)
         Label1.TabIndex = 0
         Label1.Text = "Nombre"
         ' 
@@ -178,65 +191,72 @@ Partial Class FormCivil
         TabPage2.Controls.Add(rbLSCivil2)
         TabPage2.Controls.Add(rbLSCivil1)
         TabPage2.Controls.Add(Label5)
-        TabPage2.Location = New Point(4, 29)
+        TabPage2.Location = New Point(4, 34)
+        TabPage2.Margin = New Padding(4)
         TabPage2.Name = "TabPage2"
-        TabPage2.Padding = New Padding(3)
-        TabPage2.Size = New Size(890, 434)
+        TabPage2.Padding = New Padding(4)
+        TabPage2.Size = New Size(1174, 539)
         TabPage2.TabIndex = 1
         TabPage2.Text = "Labor Social"
         TabPage2.UseVisualStyleBackColor = True
         ' 
         ' btnRegCivil
         ' 
-        btnRegCivil.Location = New Point(53, 372)
+        btnRegCivil.Location = New Point(66, 465)
+        btnRegCivil.Margin = New Padding(4)
         btnRegCivil.Name = "btnRegCivil"
-        btnRegCivil.Size = New Size(94, 29)
+        btnRegCivil.Size = New Size(118, 36)
         btnRegCivil.TabIndex = 11
         btnRegCivil.Text = "Regresar"
         btnRegCivil.UseVisualStyleBackColor = True
         ' 
         ' btnRegistrarCivil
         ' 
-        btnRegistrarCivil.Location = New Point(562, 233)
+        btnRegistrarCivil.Location = New Point(702, 291)
+        btnRegistrarCivil.Margin = New Padding(4)
         btnRegistrarCivil.Name = "btnRegistrarCivil"
-        btnRegistrarCivil.Size = New Size(150, 59)
+        btnRegistrarCivil.Size = New Size(188, 74)
         btnRegistrarCivil.TabIndex = 10
         btnRegistrarCivil.Text = "Registrar"
         btnRegistrarCivil.UseVisualStyleBackColor = True
         ' 
         ' txtHorasCivil
         ' 
-        txtHorasCivil.Location = New Point(327, 328)
+        txtHorasCivil.Location = New Point(409, 410)
+        txtHorasCivil.Margin = New Padding(4)
         txtHorasCivil.Name = "txtHorasCivil"
         txtHorasCivil.ReadOnly = True
-        txtHorasCivil.Size = New Size(230, 27)
+        txtHorasCivil.Size = New Size(286, 31)
         txtHorasCivil.TabIndex = 9
         ' 
         ' Label7
         ' 
         Label7.AutoSize = True
-        Label7.Location = New Point(147, 331)
+        Label7.Location = New Point(184, 414)
+        Label7.Margin = New Padding(4, 0, 4, 0)
         Label7.Name = "Label7"
-        Label7.Size = New Size(158, 20)
+        Label7.Size = New Size(189, 25)
         Label7.TabIndex = 8
         Label7.Text = "Horas de Labor Social:"
         ' 
         ' lbHorasCivil
         ' 
         lbHorasCivil.FormattingEnabled = True
-        lbHorasCivil.ItemHeight = 20
+        lbHorasCivil.ItemHeight = 25
         lbHorasCivil.Items.AddRange(New Object() {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10"})
-        lbHorasCivil.Location = New Point(580, 94)
+        lbHorasCivil.Location = New Point(725, 118)
+        lbHorasCivil.Margin = New Padding(4)
         lbHorasCivil.Name = "lbHorasCivil"
-        lbHorasCivil.Size = New Size(134, 84)
+        lbHorasCivil.Size = New Size(166, 104)
         lbHorasCivil.TabIndex = 7
         ' 
         ' Label6
         ' 
         Label6.AutoSize = True
-        Label6.Location = New Point(456, 46)
+        Label6.Location = New Point(570, 58)
+        Label6.Margin = New Padding(4, 0, 4, 0)
         Label6.Name = "Label6"
-        Label6.Size = New Size(353, 20)
+        Label6.Size = New Size(419, 25)
         Label6.TabIndex = 6
         Label6.Text = "Seleccione la cantidad de horas que desea registrar:"
         ' 
@@ -244,9 +264,10 @@ Partial Class FormCivil
         ' 
         rbLSCivil5.AutoSize = True
         rbLSCivil5.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point)
-        rbLSCivil5.Location = New Point(78, 230)
+        rbLSCivil5.Location = New Point(98, 288)
+        rbLSCivil5.Margin = New Padding(4)
         rbLSCivil5.Name = "rbLSCivil5"
-        rbLSCivil5.Size = New Size(228, 32)
+        rbLSCivil5.Size = New Size(273, 36)
         rbLSCivil5.TabIndex = 5
         rbLSCivil5.Text = "Plantación de arboles"
         rbLSCivil5.UseVisualStyleBackColor = True
@@ -255,9 +276,10 @@ Partial Class FormCivil
         ' 
         rbLSCivil4.AutoSize = True
         rbLSCivil4.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point)
-        rbLSCivil4.Location = New Point(78, 200)
+        rbLSCivil4.Location = New Point(98, 250)
+        rbLSCivil4.Margin = New Padding(4)
         rbLSCivil4.Name = "rbLSCivil4"
-        rbLSCivil4.Size = New Size(299, 32)
+        rbLSCivil4.Size = New Size(354, 36)
         rbLSCivil4.TabIndex = 4
         rbLSCivil4.Text = "Donacion de alimentos secos"
         rbLSCivil4.UseVisualStyleBackColor = True
@@ -266,9 +288,10 @@ Partial Class FormCivil
         ' 
         rbLSCivil3.AutoSize = True
         rbLSCivil3.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point)
-        rbLSCivil3.Location = New Point(78, 170)
+        rbLSCivil3.Location = New Point(98, 212)
+        rbLSCivil3.Margin = New Padding(4)
         rbLSCivil3.Name = "rbLSCivil3"
-        rbLSCivil3.Size = New Size(214, 32)
+        rbLSCivil3.Size = New Size(257, 36)
         rbLSCivil3.TabIndex = 3
         rbLSCivil3.Text = "Jornada de limpieza"
         rbLSCivil3.UseVisualStyleBackColor = True
@@ -277,9 +300,10 @@ Partial Class FormCivil
         ' 
         rbLSCivil2.AutoSize = True
         rbLSCivil2.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point)
-        rbLSCivil2.Location = New Point(78, 140)
+        rbLSCivil2.Location = New Point(98, 175)
+        rbLSCivil2.Margin = New Padding(4)
         rbLSCivil2.Name = "rbLSCivil2"
-        rbLSCivil2.Size = New Size(211, 32)
+        rbLSCivil2.Size = New Size(255, 36)
         rbLSCivil2.TabIndex = 2
         rbLSCivil2.Text = "Jornada de reciclaje"
         rbLSCivil2.UseVisualStyleBackColor = True
@@ -289,9 +313,10 @@ Partial Class FormCivil
         rbLSCivil1.AutoSize = True
         rbLSCivil1.Checked = True
         rbLSCivil1.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point)
-        rbLSCivil1.Location = New Point(78, 110)
+        rbLSCivil1.Location = New Point(98, 138)
+        rbLSCivil1.Margin = New Padding(4)
         rbLSCivil1.Name = "rbLSCivil1"
-        rbLSCivil1.Size = New Size(168, 32)
+        rbLSCivil1.Size = New Size(201, 36)
         rbLSCivil1.TabIndex = 1
         rbLSCivil1.TabStop = True
         rbLSCivil1.Text = "Pintar escuelas"
@@ -301,31 +326,39 @@ Partial Class FormCivil
         ' 
         Label5.AutoSize = True
         Label5.Font = New Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point)
-        Label5.Location = New Point(54, 46)
+        Label5.Location = New Point(68, 58)
+        Label5.Margin = New Padding(4, 0, 4, 0)
         Label5.Name = "Label5"
-        Label5.Size = New Size(351, 28)
+        Label5.Size = New Size(423, 32)
         Label5.TabIndex = 0
         Label5.Text = "Seleccione qué labor desea realizar:"
         ' 
         ' TabPage3
         ' 
         TabPage3.Controls.Add(dgvRegistroCivil)
-        TabPage3.Location = New Point(4, 29)
+        TabPage3.Location = New Point(4, 34)
+        TabPage3.Margin = New Padding(4)
         TabPage3.Name = "TabPage3"
-        TabPage3.Size = New Size(890, 434)
+        TabPage3.Size = New Size(1174, 539)
         TabPage3.TabIndex = 2
         TabPage3.Text = "Registro"
         TabPage3.UseVisualStyleBackColor = True
         ' 
         ' dgvRegistroCivil
         ' 
+        dgvRegistroCivil.AllowUserToAddRows = False
+        dgvRegistroCivil.AllowUserToDeleteRows = False
+        dgvRegistroCivil.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill
+        dgvRegistroCivil.BackgroundColor = SystemColors.ControlLightLight
         dgvRegistroCivil.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
         dgvRegistroCivil.Columns.AddRange(New DataGridViewColumn() {Column1, Column2, Column3, Column4, Column5, Column6})
-        dgvRegistroCivil.Location = New Point(33, 63)
+        dgvRegistroCivil.Location = New Point(41, 79)
+        dgvRegistroCivil.Margin = New Padding(4)
         dgvRegistroCivil.Name = "dgvRegistroCivil"
+        dgvRegistroCivil.ReadOnly = True
         dgvRegistroCivil.RowHeadersWidth = 51
         dgvRegistroCivil.RowTemplate.Height = 29
-        dgvRegistroCivil.Size = New Size(803, 267)
+        dgvRegistroCivil.Size = New Size(1004, 334)
         dgvRegistroCivil.TabIndex = 0
         ' 
         ' Column1
@@ -333,51 +366,76 @@ Partial Class FormCivil
         Column1.HeaderText = "Nombre"
         Column1.MinimumWidth = 6
         Column1.Name = "Column1"
-        Column1.Width = 125
+        Column1.ReadOnly = True
         ' 
         ' Column2
         ' 
         Column2.HeaderText = "Apellido"
         Column2.MinimumWidth = 6
         Column2.Name = "Column2"
-        Column2.Width = 125
+        Column2.ReadOnly = True
         ' 
         ' Column3
         ' 
         Column3.HeaderText = "Cédula"
         Column3.MinimumWidth = 6
         Column3.Name = "Column3"
-        Column3.Width = 125
+        Column3.ReadOnly = True
         ' 
         ' Column4
         ' 
         Column4.HeaderText = "Edad"
         Column4.MinimumWidth = 6
         Column4.Name = "Column4"
-        Column4.Width = 125
+        Column4.ReadOnly = True
         ' 
         ' Column5
         ' 
         Column5.HeaderText = "Labor Social"
         Column5.MinimumWidth = 6
         Column5.Name = "Column5"
-        Column5.Width = 125
+        Column5.ReadOnly = True
         ' 
         ' Column6
         ' 
         Column6.HeaderText = "Horas"
         Column6.MinimumWidth = 6
         Column6.Name = "Column6"
-        Column6.Width = 125
+        Column6.ReadOnly = True
+        ' 
+        ' Button1
+        ' 
+        Button1.Location = New Point(1079, 65)
+        Button1.Name = "Button1"
+        Button1.Size = New Size(112, 34)
+        Button1.TabIndex = 1
+        Button1.Text = "Inicio"
+        Button1.UseVisualStyleBackColor = True
+        ' 
+        ' Label8
+        ' 
+        Label8.AutoSize = True
+        Label8.BackColor = Color.Transparent
+        Label8.Font = New Font("Segoe UI", 28F, FontStyle.Bold, GraphicsUnit.Point)
+        Label8.ForeColor = SystemColors.ControlLightLight
+        Label8.Location = New Point(13, 11)
+        Label8.Name = "Label8"
+        Label8.Size = New Size(741, 74)
+        Label8.TabIndex = 8
+        Label8.Text = "Facultad de Ingeniería Civil" & vbCrLf
         ' 
         ' FormCivil
         ' 
-        AutoScaleDimensions = New SizeF(8F, 20F)
+        AutoScaleDimensions = New SizeF(10F, 25F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(966, 557)
+        BackColor = Color.Purple
+        ClientSize = New Size(1208, 696)
+        Controls.Add(Label8)
+        Controls.Add(Button1)
         Controls.Add(TabControl1)
+        Margin = New Padding(4)
         Name = "FormCivil"
-        Text = "Facultad de Ing. Civil"
+        Text = "Facultad de Ingeniería Civil"
         TabControl1.ResumeLayout(False)
         TabPage1.ResumeLayout(False)
         TabPage1.PerformLayout()
@@ -386,6 +444,7 @@ Partial Class FormCivil
         TabPage3.ResumeLayout(False)
         CType(dgvRegistroCivil, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
+        PerformLayout()
     End Sub
 
     Friend WithEvents TabControl1 As TabControl
@@ -420,4 +479,6 @@ Partial Class FormCivil
     Friend WithEvents Column6 As DataGridViewTextBoxColumn
     Friend WithEvents btnSiguienteCivil As Button
     Friend WithEvents btnRegCivil As Button
+    Friend WithEvents Button1 As Button
+    Friend WithEvents Label8 As Label
 End Class

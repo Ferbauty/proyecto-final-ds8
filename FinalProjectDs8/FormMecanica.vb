@@ -1,4 +1,5 @@
-﻿Public Class FormCivil
+﻿Public Class FormMecanica
+
     Private MainForm As Form1
 
     ' Constructor que toma una referencia al formulario principal
@@ -7,31 +8,32 @@
         Me.MainForm = mainForm
     End Sub
 
-    Private Sub btnRegistrarCivil_Click(sender As Object, e As EventArgs) Handles btnRegistrarCivil.Click
+
+    Private Sub btnRegistrarMecanica_Click(sender As Object, e As EventArgs) Handles btnRegistrarMecanica.Click
         Dim nombre, apellido, cedula, laborSocial, facultad As String
         Dim edad, horas As Integer
 
         'Capturando los datos de los textBox
-        nombre = txtNombreCivil.Text
-        apellido = txtApellidoCivil.Text
-        cedula = txtCedulaCivil.Text
+        nombre = txtNombreMecanica.Text
+        apellido = txtApellidoMecanica.Text
+        cedula = txtCedulaMecanica.Text
 
         'Tomando el dato de la edad
-        If Integer.TryParse(txtEdadCivil.Text, edad) = False Then
+        If Integer.TryParse(txtEdadMecanica.Text, edad) = False Then
             MessageBox.Show("Ingrese un edad valida.")
             Return
         End If
 
         'Obteniendo datos de los radioButton
-        If rbLSCivil1.Checked Then
+        If rbLSMecanica1.Checked Then
             laborSocial = "Pintar escuelas"
-        ElseIf rbLSCivil2.Checked Then
+        ElseIf rbLSMecanica2.Checked Then
             laborSocial = "Jornada de reciclaje"
-        ElseIf rbLSCivil3.Checked Then
+        ElseIf rbLSMecanica3.Checked Then
             laborSocial = "Jornada de limpieza"
-        ElseIf rbLSCivil4.Checked Then
+        ElseIf rbLSMecanica4.Checked Then
             laborSocial = "Donacion de alimentos secos"
-        ElseIf rbLSCivil5.Checked Then
+        ElseIf rbLSMecanica5.Checked Then
             laborSocial = "Plantación de árboles"
         Else
             MessageBox.Show("Selecciona una labor social para registrar")
@@ -39,18 +41,18 @@
         End If
 
         'Horas de labor social
-        If lbHorasCivil.SelectedIndex <> -1 Then
-            horas = lbHorasCivil.SelectedItem
-            txtHorasCivil.Text = horas.ToString
+        If lbHorasMecanica.SelectedIndex <> -1 Then
+            horas = lbHorasMecanica.SelectedItem
+            txtHorasMecanica.Text = horas.ToString
 
         Else
             MessageBox.Show("Debes saleccionar una cantidad de horas de la lista.")
         End If
 
-        facultad = "Ingeniería Civil"
+        facultad = "Ingeniería Mecanica"
 
         'codigo para enviar los datos al registro de la facultad correspendiente
-        dgvRegistroCivil.Rows.Add(nombre, apellido, cedula, edad, laborSocial, horas)
+        dgvRegistroMecanica.Rows.Add(nombre, apellido, cedula, edad, laborSocial, horas)
 
         'codigo para enviar el registro de la facultad al reporte general
         Form1.AgregarReporte(nombre, apellido, cedula, facultad, laborSocial)
@@ -63,28 +65,30 @@
 
     Private Sub LimpiezaControles()
         'Limpia textBox
-        txtNombreCivil.Clear()
-        txtApellidoCivil.Clear()
-        txtCedulaCivil.Clear()
-        txtEdadCivil.Clear()
+        txtNombreMecanica.Clear()
+        txtApellidoMecanica.Clear()
+        txtCedulaMecanica.Clear()
+        txtEdadMecanica.Clear()
 
         'Desmarca radioButton
-        rbLSCivil1.Checked = False
-        rbLSCivil2.Checked = False
-        rbLSCivil3.Checked = False
-        rbLSCivil4.Checked = False
-        rbLSCivil5.Checked = False
+        rbLSMecanica1.Checked = False
+        rbLSMecanica2.Checked = False
+        rbLSMecanica3.Checked = False
+        rbLSMecanica4.Checked = False
+        rbLSMecanica5.Checked = False
 
         'Desmarca listBox
-        lbHorasCivil.ClearSelected()
+        lbHorasMecanica.ClearSelected()
 
     End Sub
 
-    Private Sub btnSiguienteCivil_Click(sender As Object, e As EventArgs) Handles btnSiguienteCivil.Click
+
+
+    Private Sub btnSiguienteMecanica_Click(sender As Object, e As EventArgs) Handles btnSiguienteMecanica.Click
         TabControl1.SelectedIndex = 1
     End Sub
 
-    Private Sub btnRegCivil_Click(sender As Object, e As EventArgs) Handles btnRegCivil.Click
+    Private Sub btnRegMecanica_Click(sender As Object, e As EventArgs) Handles btnRegMecanica.Click
         TabControl1.SelectedIndex = 0
     End Sub
 
@@ -93,6 +97,4 @@
         MainForm.Show()
         Me.Close()
     End Sub
-
-
 End Class

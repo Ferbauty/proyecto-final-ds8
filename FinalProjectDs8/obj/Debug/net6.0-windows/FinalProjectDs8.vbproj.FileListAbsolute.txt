@@ -15,3 +15,54 @@ D:\Escritorio\Proyecto fianl ds8\proyecto-final-ds8\FinalProjectDs8\obj\Debug\ne
 D:\Escritorio\Proyecto fianl ds8\proyecto-final-ds8\FinalProjectDs8\obj\Debug\net6.0-windows\FinalProjectDs8.genruntimeconfig.cache
 D:\Escritorio\Proyecto fianl ds8\proyecto-final-ds8\FinalProjectDs8\obj\Debug\net6.0-windows\ref\FinalProjectDs8.dll
 D:\Escritorio\Proyecto fianl ds8\proyecto-final-ds8\FinalProjectDs8\obj\Debug\net6.0-windows\FinalProjectDs8.FormCivil.resources
+C:\Users\medin\OneDrive\Documentos\GitHub\DESARROLLO DE SOFTWARE 8\proyecto-final-ds8-main\FinalProjectDs8\bin\Debug\net6.0-windows\FinalProjectDs8.exe
+C:\Users\medin\OneDrive\Documentos\GitHub\DESARROLLO DE SOFTWARE 8\proyecto-final-ds8-main\FinalProjectDs8\bin\Debug\net6.0-windows\FinalProjectDs8.deps.json
+C:\Users\medin\OneDrive\Documentos\GitHub\DESARROLLO DE SOFTWARE 8\proyecto-final-ds8-main\FinalProjectDs8\bin\Debug\net6.0-windows\FinalProjectDs8.runtimeconfig.json
+C:\Users\medin\OneDrive\Documentos\GitHub\DESARROLLO DE SOFTWARE 8\proyecto-final-ds8-main\FinalProjectDs8\bin\Debug\net6.0-windows\FinalProjectDs8.dll
+C:\Users\medin\OneDrive\Documentos\GitHub\DESARROLLO DE SOFTWARE 8\proyecto-final-ds8-main\FinalProjectDs8\bin\Debug\net6.0-windows\FinalProjectDs8.pdb
+C:\Users\medin\OneDrive\Documentos\GitHub\DESARROLLO DE SOFTWARE 8\proyecto-final-ds8-main\FinalProjectDs8\obj\Debug\net6.0-windows\FinalProjectDs8.Form1.resources
+C:\Users\medin\OneDrive\Documentos\GitHub\DESARROLLO DE SOFTWARE 8\proyecto-final-ds8-main\FinalProjectDs8\obj\Debug\net6.0-windows\FinalProjectDs8.FormCivil.resources
+C:\Users\medin\OneDrive\Documentos\GitHub\DESARROLLO DE SOFTWARE 8\proyecto-final-ds8-main\FinalProjectDs8\obj\Debug\net6.0-windows\FinalProjectDs8.vbproj.GenerateResource.cache
+C:\Users\medin\OneDrive\Documentos\GitHub\DESARROLLO DE SOFTWARE 8\proyecto-final-ds8-main\FinalProjectDs8\obj\Debug\net6.0-windows\FinalProjectDs8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\medin\OneDrive\Documentos\GitHub\DESARROLLO DE SOFTWARE 8\proyecto-final-ds8-main\FinalProjectDs8\obj\Debug\net6.0-windows\FinalProjectDs8.AssemblyInfoInputs.cache
+C:\Users\medin\OneDrive\Documentos\GitHub\DESARROLLO DE SOFTWARE 8\proyecto-final-ds8-main\FinalProjectDs8\obj\Debug\net6.0-windows\FinalProjectDs8.AssemblyInfo.vb
+C:\Users\medin\OneDrive\Documentos\GitHub\DESARROLLO DE SOFTWARE 8\proyecto-final-ds8-main\FinalProjectDs8\obj\Debug\net6.0-windows\FinalProjectDs8.vbproj.CoreCompileInputs.cache
+C:\Users\medin\OneDrive\Documentos\GitHub\DESARROLLO DE SOFTWARE 8\proyecto-final-ds8-main\FinalProjectDs8\obj\Debug\net6.0-windows\FinalProjectDs8.dll
+C:\Users\medin\OneDrive\Documentos\GitHub\DESARROLLO DE SOFTWARE 8\proyecto-final-ds8-main\FinalProjectDs8\obj\Debug\net6.0-windows\refint\FinalProjectDs8.dll
+C:\Users\medin\OneDrive\Documentos\GitHub\DESARROLLO DE SOFTWARE 8\proyecto-final-ds8-main\FinalProjectDs8\obj\Debug\net6.0-windows\FinalProjectDs8.pdb
+C:\Users\medin\OneDrive\Documentos\GitHub\DESARROLLO DE SOFTWARE 8\proyecto-final-ds8-main\FinalProjectDs8\obj\Debug\net6.0-windows\FinalProjectDs8.genruntimeconfig.cache
+C:\Users\medin\OneDrive\Documentos\GitHub\DESARROLLO DE SOFTWARE 8\proyecto-final-ds8-main\FinalProjectDs8\obj\Debug\net6.0-windows\ref\FinalProjectDs8.dll
+C:\Users\medin\OneDrive\Documentos\GitHub\DESARROLLO DE SOFTWARE 8\proyecto-final-ds8-main\FinalProjectDs8\obj\Debug\net6.0-windows\FinalProjectDs8.FormMecanica.resources
+C:\Users\medin\OneDrive\Documentos\GitHub\DESARROLLO DE SOFTWARE 8\proyecto-final-ds8-main\FinalProjectDs8\obj\Debug\net6.0-windows\FinalProjectDs8.FormSistemasComputacionales.resources
+C:\Users\medin\OneDrive\Documentos\GitHub\DESARROLLO DE SOFTWARE 8\proyecto-final-ds8-main\FinalProjectDs8\obj\Debug\net6.0-windows\FinalProjectDs8.FormElectrica.resources
+C:\Users\medin\OneDrive\Documentos\GitHub\DESARROLLO DE SOFTWARE 8\proyecto-final-ds8-main\FinalProjectDs8\obj\Debug\net6.0-windows\FinalProjectDs8.FormIndustrial.resources
+C:\Users\medin\OneDrive\Documentos\GitHub\DESARROLLO DE SOFTWARE 8\proyecto-final-ds8-main\FinalProjectDs8\obj\Debug\net6.0-windows\FinalProjectDs8.FormCiencias.resources
+C:\Users\medin\OneDrive\Documentos\GitHub\DESARROLLO DE SOFTWARE 8\proyecto-final-ds8-main\FinalProjectDs8\obj\Debug\net6.0-windows\FinalProjectDs8.Resources.resources
+C:\Users\medin\OneDrive\Documentos\proyecto-final-ds8-main\FinalProjectDs8\obj\Debug\net6.0-windows\FinalProjectDs8.dll
+C:\Users\medin\OneDrive\Documentos\proyecto-final-ds8-main\FinalProjectDs8\obj\Debug\net6.0-windows\refint\FinalProjectDs8.dll
+C:\Users\medin\OneDrive\Documentos\proyecto-final-ds8-main\FinalProjectDs8\obj\Debug\net6.0-windows\FinalProjectDs8.pdb
+C:\Users\medin\OneDrive\Documentos\proyecto-final-ds8-main\FinalProjectDs8\bin\Debug\net6.0-windows\FinalProjectDs8.exe
+C:\Users\medin\OneDrive\Documentos\proyecto-final-ds8-main\FinalProjectDs8\bin\Debug\net6.0-windows\FinalProjectDs8.deps.json
+C:\Users\medin\OneDrive\Documentos\proyecto-final-ds8-main\FinalProjectDs8\bin\Debug\net6.0-windows\FinalProjectDs8.runtimeconfig.json
+C:\Users\medin\OneDrive\Documentos\proyecto-final-ds8-main\FinalProjectDs8\bin\Debug\net6.0-windows\FinalProjectDs8.dll
+C:\Users\medin\OneDrive\Documentos\proyecto-final-ds8-main\FinalProjectDs8\bin\Debug\net6.0-windows\FinalProjectDs8.pdb
+C:\Users\medin\OneDrive\Documentos\proyecto-final-ds8-main\FinalProjectDs8\obj\Debug\net6.0-windows\FinalProjectDs8.Form1.resources
+C:\Users\medin\OneDrive\Documentos\proyecto-final-ds8-main\FinalProjectDs8\obj\Debug\net6.0-windows\FinalProjectDs8.FormCiencias.resources
+C:\Users\medin\OneDrive\Documentos\proyecto-final-ds8-main\FinalProjectDs8\obj\Debug\net6.0-windows\FinalProjectDs8.FormCivil.resources
+C:\Users\medin\OneDrive\Documentos\proyecto-final-ds8-main\FinalProjectDs8\obj\Debug\net6.0-windows\FinalProjectDs8.FormElectrica.resources
+C:\Users\medin\OneDrive\Documentos\proyecto-final-ds8-main\FinalProjectDs8\obj\Debug\net6.0-windows\FinalProjectDs8.FormIndustrial.resources
+C:\Users\medin\OneDrive\Documentos\proyecto-final-ds8-main\FinalProjectDs8\obj\Debug\net6.0-windows\FinalProjectDs8.FormMecanica.resources
+C:\Users\medin\OneDrive\Documentos\proyecto-final-ds8-main\FinalProjectDs8\obj\Debug\net6.0-windows\FinalProjectDs8.FormSistemasComputacionales.resources
+C:\Users\medin\OneDrive\Documentos\proyecto-final-ds8-main\FinalProjectDs8\obj\Debug\net6.0-windows\FinalProjectDs8.Resources.resources
+C:\Users\medin\OneDrive\Documentos\proyecto-final-ds8-main\FinalProjectDs8\obj\Debug\net6.0-windows\FinalProjectDs8.vbproj.GenerateResource.cache
+C:\Users\medin\OneDrive\Documentos\proyecto-final-ds8-main\FinalProjectDs8\obj\Debug\net6.0-windows\FinalProjectDs8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\medin\OneDrive\Documentos\proyecto-final-ds8-main\FinalProjectDs8\obj\Debug\net6.0-windows\FinalProjectDs8.AssemblyInfoInputs.cache
+C:\Users\medin\OneDrive\Documentos\proyecto-final-ds8-main\FinalProjectDs8\obj\Debug\net6.0-windows\FinalProjectDs8.AssemblyInfo.vb
+C:\Users\medin\OneDrive\Documentos\proyecto-final-ds8-main\FinalProjectDs8\obj\Debug\net6.0-windows\FinalProjectDs8.vbproj.CoreCompileInputs.cache
+C:\Users\medin\OneDrive\Documentos\proyecto-final-ds8-main\FinalProjectDs8\obj\Debug\net6.0-windows\FinalProjectDs8.genruntimeconfig.cache
+C:\Users\medin\OneDrive\Documentos\proyecto-final-ds8-main\FinalProjectDs8\obj\Debug\net6.0-windows\ref\FinalProjectDs8.dll
+D:\Escritorio\Proyecto fianl ds8\proyecto-final-ds8\FinalProjectDs8\obj\Debug\net6.0-windows\FinalProjectDs8.FormCiencias.resources
+D:\Escritorio\Proyecto fianl ds8\proyecto-final-ds8\FinalProjectDs8\obj\Debug\net6.0-windows\FinalProjectDs8.FormElectrica.resources
+D:\Escritorio\Proyecto fianl ds8\proyecto-final-ds8\FinalProjectDs8\obj\Debug\net6.0-windows\FinalProjectDs8.FormIndustrial.resources
+D:\Escritorio\Proyecto fianl ds8\proyecto-final-ds8\FinalProjectDs8\obj\Debug\net6.0-windows\FinalProjectDs8.FormMecanica.resources
+D:\Escritorio\Proyecto fianl ds8\proyecto-final-ds8\FinalProjectDs8\obj\Debug\net6.0-windows\FinalProjectDs8.FormSistemasComputacionales.resources
